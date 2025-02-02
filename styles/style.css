@@ -59,6 +59,24 @@ body{
     margin-top: 60px;
     margin-bottom: 24px;
 }
+.p-style{
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shared-card-title{
+    margin-top: 24px;
+    font-size:20px;
+    font-weight: 700;
+}
+.shared-card-description{
+    margin-top: 12px;
+    font-size:16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.50);
+}
+
                                 /* nav styles */
 
 nav {
@@ -123,14 +141,71 @@ nav li > a{
     border-radius: 16px;
 }
 
-.pillar-card-title{
-    margin-top: 24px;
-    font-size:20px;
-    font-weight: 700;
+
+
+
+
+/* the vision section styles  */
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 32px;
+
 }
-.pillar-card-description{
+
+.vision-card-1-bg{
+    background-color:#d5e1f5 ;
+}
+.vision-card-button{
+
+}
+.vision-card-2-bg{
+    background-color:#c6e4d6 ;
+}
+.vision-card-3-bg{
+    background-color:#f7ebcf ;
+}
+.vision-card-shared{
+    border-radius: 16px;
+    padding: 32px;
+}
+
+
+.vision-card-1-btn{
+    background-color: #5490F5;
+}
+.vision-card-2-btn{
+    background-color: #09A15C;
+}
+.vision-card-3-btn{
+    background-color: #FFC239;
+}
+.vision-card-btn-shared{
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+
+/* text area styles  */
+.text-area-content{
+    background-color: white;
+    padding: 48px 24px;
+    border-radius: 16px;
+    
+    border: 1px solid #D5D6D8;
+    margin-top: 32px;
+    
+}
+.dr-younus{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.80);
     margin-top: 12px;
-    font-size:16px;
-    font-weight: 400;
-    color:rgba(14, 14, 14, 0.50) ;
 }
