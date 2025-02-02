@@ -63,6 +63,7 @@ body{
     color: rgba(14, 14, 14, 0.50);
     font-size: 16px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .shared-card-title{
@@ -194,6 +195,11 @@ nav li > a{
 
 
 /* text area styles  */
+
+.text-area{
+    display: flex;
+    justify-items: flex-start;
+}
 .text-area-content{
     background-color: white;
     padding: 48px 24px;
@@ -208,4 +214,34 @@ nav li > a{
     font-weight: 600;
     color: rgba(14, 14, 14, 0.80);
     margin-top: 12px;
+}
+
+/* Resent News Section styles  */
+
+.news-section-1{
+    margin-top: 32px;
+}
+.margin-shared{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.news-section-1, .news-section-2 , .news-section-3{
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 48px;
+    align-items: center;
+}
+.news-section-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px ;
+}
+.news-image{
+     border-radius: 24px;
+     margin: 48px 32px 48px 48px ;
+ }
+.time{
+    margin-left:12px ;
 }
