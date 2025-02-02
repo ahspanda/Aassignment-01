@@ -4,7 +4,7 @@
     font-weight: 100;
     font-style: normal;
   } */
-  *{
+*{
     margin: 0;
     padding: 0;
 }
@@ -50,7 +50,7 @@ body{
     padding: 17px 34px;
     margin-top: 22px;
 }
-.text-allign{
+.text-align{
     text-align: center;
 }
 .shared-font-size-weight{
@@ -159,9 +159,7 @@ nav li > a{
 .vision-card-1-bg{
     background-color:#d5e1f5 ;
 }
-.vision-card-button{
 
-}
 .vision-card-2-bg{
     background-color:#c6e4d6 ;
 }
@@ -245,3 +243,60 @@ nav li > a{
 .time{
     margin-left:12px ;
 }
+
+
+/* subscribe newsletter section */
+
+.newsletter-section{
+    border: none;
+    border-radius: 24px;
+    padding: 80px 120px;
+    background-color: #C6E4D6;
+    margin-top: 32px;
+    margin-bottom: 80px;
+ }
+ .newsletter-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .newsletter-description{
+    width: 622px;
+    height: 48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0px 24px 110px;
+ 
+    color: rgba(14, 14, 14, 0.50); 
+}
+.subscribe-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 17px 34px;
+    
+}
+
+.email-sub-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+   
+}
+input[type="email"]{
+    width: 249%;
+    padding: 18px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0px 0px 5px; 
+}
+.p-color{
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
