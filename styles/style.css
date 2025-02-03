@@ -56,6 +56,9 @@ body{
 .text-align{
     text-align: center;
 }
+.justify{
+    text-align: justify;
+}
 .shared-font-size-weight{
     font-size: 40px;
     font-weight: 600;
