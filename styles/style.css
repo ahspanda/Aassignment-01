@@ -15,17 +15,20 @@
   }
 body{
     background-color:#f5f5f5 ;
-    width: 1080px;
-    margin: 0 auto;
+    
    
 }
+
 .header{
-    margin-top: 31px ;
-    
+    width: 1080px;
+    margin: 24px auto;
 }
 
                                 /* shared style */
-
+.width-margin{
+    width: 1080px;
+    margin: 0 auto;
+}
 .btn-primary{
     background-color: #006A50;
     color: white;
@@ -78,6 +81,31 @@ body{
     color: rgba(14, 14, 14, 0.50);
 }
 
+.btn-primary:hover{
+    background-color: #555ed3;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* hober effect shared styles  */
+
+.nav-button:hover{
+    background-color: #555ed3;
+    color: #00fd1e;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary:hover,
+.btn-secondary:hover,
+.vision-card-1-btn:hover,
+.vision-card-2-btn:hover,
+.vision-card-3-btn:hover,
+.subscribe-btn:hover{
+    background-color: #555ed3;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
                                 /* nav styles */
 
 nav {
@@ -299,4 +327,32 @@ input[type="email"]{
     font-size: 16px;
     font-weight: 400;
 }
+ 
+/* footer styles */
 
+.footer-section{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 50px 50px 0px 50px;
+    margin-bottom: 34px;
+}
+.horizontal-line{  
+    width: 60%;
+    margin: 10px auto;
+    border-top: 1px solid rgba(14, 14, 14, 0.10);
+}
+.social-media{
+    text-align: center;
+    /* margin-top: 32px;
+    margin-bottom: 50px; */
+    padding: 32px;
+}
+.social-media a{
+    margin-right: 23px;
+}
